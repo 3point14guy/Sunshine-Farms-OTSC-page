@@ -1,0 +1,57 @@
+body {
+  background-color: beige;
+  color: black;
+}
+.background-image {
+
+  background-size: cover;
+  background-position: center;
+}
+.background-image: :after {
+  background-image: url('../images/field.JPG');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.4;
+}
+
+.main-header {
+  background-image: url('../images/field.JPG');
+  color: gold;
+  margin-bottom: 100px;
+  padding: 50px;
+}
+
+nav a{
+  font-size: 1.25em;
+  font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.nav-item: :active {
+  font-size: 1.1em;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.pedigree {
+  width: 300px;
+}
+
+.pedigree-box {
+  border: 1px solid black;
+  height: 200px;
+
+}
+
+.row {
+  margin: 2px 0;
+}
+
+.parents {
+  left: 20px;
+}
+/* .great-grands {
+  margin: 0 5px;
+} */
