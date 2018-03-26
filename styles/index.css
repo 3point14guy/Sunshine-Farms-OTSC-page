@@ -2,8 +2,8 @@ body {
   background-color: beige;
   color: black;
 }
-.background-image {
 
+/* .background-image {
   background-size: cover;
   background-position: center;
 }
@@ -12,22 +12,41 @@ body {
   background-size: cover;
   background-position: center;
   opacity: 0.4;
+} */
+
+h3 {
+    background-color: #cc9933;
+    padding: .5rem;
+    width: 110%;
+    margin-left: -5%;
 }
 
+h6 {
+  margin-top: 0.5rem;
+}
 .main-header {
   background-image: url('../images/field.JPG');
   color: gold;
+  text-shadow: 3px 2px 2px rgba(0, 0, 0, 1);
   margin-bottom: 100px;
   padding: 50px;
 }
 
-nav a{
+/* nav a{
   font-size: 1.25em;
-  font-weight: 600;
+  font-weight: 400;
+} */
+
+.navbar {
+  padding: 0 0.5rem !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.8);
+}
+
+.nav-link {
+  padding: 0 0.5rem;
 }
 
 .nav-item: :active {
@@ -36,15 +55,20 @@ nav a{
 }
 
 .pedigree {
-  width: 300px;
+  margin-top: auto;
+  margin-bottom: 15px;
 }
 
 .pedigree-box {
-  border: 1px solid black;
+  border: 2px solid #cc9933;
   height: 200px;
-
+  display: flex;
+  flex-direction: column;
 }
 
+.pedigree-montana {
+  height: 250px;
+}
 .row {
   margin: 2px 0;
 }
@@ -52,6 +76,66 @@ nav a{
 .parents {
   left: 20px;
 }
-/* .great-grands {
-  margin: 0 5px;
-} */
+
+.bg-light {
+  background-color: #cc9933 !important;
+}
+
+.d-block {
+  height: 550px;
+  width: auto;
+}
+
+.welcome {
+  margin: 0 0 0 65px;
+  font-weight: 400;
+}
+
+.OTSC-header {
+  margin-left: 50px;
+}
+
+div.gallery {
+    border: 2px solid beige;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+    border-radius: .25rem;
+}
+
+div.gallery img {
+    width: auto;
+    height: 10rem;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    margin-bottom: .5rem;
+    padding: 0 6px;
+    float: left;
+    width: 24.9%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.9%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
