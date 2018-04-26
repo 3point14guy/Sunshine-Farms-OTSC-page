@@ -14,15 +14,21 @@ body {
   opacity: 0.4;
 } */
 
+
 h3 {
     background-color: #cc9933;
-    padding: .5rem;
+    /* color: gold; */
+    /* padding: .25rem; */
     width: 110%;
     padding-left: 5%;
 }
 
 h6 {
   margin-top: 0.5rem;
+}
+
+.instructions {
+  font-size: .75rem;
 }
 .main-header {
   background-image: url('../images/field.JPG');
@@ -45,17 +51,18 @@ h6 {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0, 0, 0, 0.8);
+  /* color: gold; */
 }
 
 .nav-link {
   padding: 0 0.5rem;
 }
 
-.nav-item: :active {
+/* .nav-item: :active {
   font-size: 1.1em;
+  color: gold;
   background-color: rgba(0, 0, 0, 0.15);
-}
+} */
 
 .pedigree {
   margin-top: auto;
@@ -63,7 +70,8 @@ h6 {
 }
 
 .pedigree-box {
-  border: 2px solid #cc9933;
+  border: 2px solid
+#cc9933;
   height: 200px;
   display: flex;
   flex-direction: column;
@@ -102,6 +110,7 @@ h6 {
   height: 30px;
   width: 100%;
   background-color: #cc9933;
+  /* color: gold; */
 }
 
 div.gallery {
@@ -148,3 +157,7 @@ div.gallery img {
     display: table;
     clear: both;
 }
+
+/* sandybrown gold */
+/* darkolivegreen
+#cc9933 */
