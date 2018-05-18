@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sunshine Farm</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="styles/index.css">
   </head>
   <body>
@@ -45,6 +46,7 @@
         <h4 class="welcome">Welcome to</h4>
         <h1 class="display-2">Sunshine Farm's</h1>
         <h2 class="display-6 OTSC-header">Old Time Scotch Collie Page</h2>
+        <!-- <img src="images/otsc-w-circle2.png" alt="scotch collie logo"> -->
       </div>
       <div class="bottom-band">
 
@@ -62,13 +64,14 @@
         <div class="card-body">
           <p class="card-text">Montana is a 2 year old Scotch Collie.  She wears several hats around here, but her primary role is that of protector.  She protects the veggies from critters, the chickens from predators, our children from anyone new and our house from things that go 'bump' in the night. </p><br/>
           <p>
+          <div id="gallery"></div>
             Montana will have her first litter at the end of May. She has been bred to Wallace.
           </p>
         </div>
       </div>
     </div>
 
-  <h3 id="gallery">Gallery</h3>
+  <h3>Gallery</h3>
   <div class="container">
     <br>
     <p class="instructions">Hover on pitures to stop carousel. Click on any picture to bring it to center. Click on the center picture to see full size.</p>
@@ -80,7 +83,7 @@
     var c = document.getElementsByTagName("script")[0];
     c.parentNode.insertBefore(cp, c); })(); </script><noscript><span>Old-Time Scotch Collie Heritage Hill's Montana</span><span>photos of the Old-Time Scotch Collie Montana at Sunshine Farms </span><span>Montana 6 months</span><span>Montana Old-Time Scotch Collie at Sunshine Farm NC at six months old</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1080</span><span>height</span><span> 1080</span><span>Montana puppy with ducks</span><span>Old-Time Scotch Collie Montana's first exposure to ducks at Heritage Hills Farm</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 600</span><span>height</span><span> 450</span><span>Montana puppy with cow</span><span>Montana Old-Time Scotch Collie meets a cow at Heritage Hills Farm</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 600</span><span>height</span><span> 450</span><span>Montana at 19 weeks</span><span>Old-Time Scotch Collie Montana at just under 5 months old at Heritage Hills Farm</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 600</span><span>height</span><span> 500</span><span>Montana at 9 weeks</span><span>Montana Old-Time Scotch Collie puppy at 2 months old at Heritage Hills Farm</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 544</span><span>height</span><span> 600</span><span>Montana at 5 weeks</span><span>Montana Old-Time Scotch Collie puppy at 1 month old at Heritage Hills Farm</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 440</span><span>height</span><span> 599</span><span>Montana right profile</span><span>Old-Time Scotch Collie at Sunshine Farm NC</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1632</span><span>height</span><span> 1224</span><span>Montana left profile</span><span>Old-Time Scotch Collie at Sunshine Farm NC</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1632</span><span>height</span><span> 1224</span><span>Montana</span><span>Old-Time Scotch Collie at Sunshine Farm NC</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1224</span><span>height</span><span> 1632</span><span>Montana getting hugs</span><span>Old-Time Scotch Collie at Sunshine Farm NC</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1224</span><span>height</span><span> 1632</span><span>Montana</span><span>Old-Time Scotch Collie at Sunshine Farm NC</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1224</span><span>height</span><span> 1632</span></noscript>
 
-
+    <div id="genetics"></div>
     <p>Thanks to Brina Brinkerhoff of Heritage Hill Farm for the pics of Montana when she was a puppy. You can learn more about Montana's puppy days at Brina's website <a href="https://onegoodfarmdog.wordpress.com/">One Good Farmdog</a> </p>
     <br>
   </div>
@@ -269,7 +272,7 @@
     </div>
   </div> -->
 <!-- </div> -->
-  <h3 id="genetics">Genetics</h3><br>
+  <h3>Genetics</h3><br>
   <div class="container">
     <div class="row">
       <div class="col-md-6">
@@ -283,6 +286,7 @@
             <p><strong>Weight:</strong> 50 lbs</p>
             <p><strong>Eyes:</strong> clear/normal <a href="https://en.wikipedia.org/wiki/Collie_eye_anomaly">CEA(Collie Eye Anomaly)</a></p>
             <p><a href="http://vcpl.vetmed.wsu.edu/"><strong>MDR1:</strong></a> carrier/not affected</p>
+            <div  id="application"></div>
           </div>
         </div>
       </div>
@@ -295,29 +299,285 @@
       </div>
     </div>
   </div>
-  <h3 id="application">Puppy Application</h3>
+
+  <h3>Puppy Application</h3>
   <div class="container">
     <br>
-    <p>We ensure that all our puppies are going to homes with humans friends that are prepared to take good care of these animals. Please fill out this application completely to start the process of finding the right dog for you. After your application is approved, a 50% deposit is required to reserve your puppy. </p>
-    <form action="https://formspree.io/sunshine.farm.nc@gmail.com" method="post">
-    Name:<br>
-    <input type="text" name="first-name"> <input type="text" name="last-name"> <br>
-    E-mail:<br>
-    <input type="text" name="_replyto">
-    Phone number: <input type="number" name="phone"><br>
-    Address:<br>
-    <input type="text" name="address"><br>
-    City: <br>
-    <input type="text" name="City">   State: <input type="text" name="state">   Zip <input type="text" name="zip"><br>
-    Comment:<br>
-    <input type="text" name="comment" size="50"><br><br>
-    <input type="submit" value="Send">
-    <input type="reset" value="Reset">
-    </form>
+    <p>The following Puppy Application was developed to help us get to know you a bit better and to assist us in finding the best lifetime matches for puppies that will lead to the best outcome for both owners and puppies.  Completion of this Puppy Application or a phone Interview does not guarantee you a puppy. Additionally, no puppies will be placed based on color or sex preferences alone.</p>
+
+    <p>Our puppies will be handled from birth with our family and friends to start their socialization, and to help us evaluate them. All puppies are introduced to basic training at 4 weeks old, using positive reinforcement. From six to eight weeks of age they are crate trained, keenly observed for temperament, and evaluated before sending them to their new homes.</p>
+
+    <p>Please complete this Puppy Application as soon as possible and return it to us. We do not require a deposit at the time of application Once your application has been reviewed, we will contact you by phone for a telephone discussion. If we feel your home would be a potential match for a puppy, a $300 nonrefundable deposit is required to hold a puppy for you, with the balance due upon pickup or prior to shipping. This deposit will be applied to the price of the puppy which is $750 for females and $650 for males.  All shipping expenses are the responsibility of the purchaser. This would include a private courier, plane ticket, health certificate (required by airlines), crate, leash and collar, etc. If the breeder delivers the puppy to the Asheville, NC airport for shipping, an additional fee will be added to the puppy price to cover breeder’s time and fuel expense.</p>
+
+    <p>Regarding the questions, there are no right or wrong answers. Puppies are all quite different, their personally traits, level of activity and degree of pushiness or quietness can vary greatly. Your honest and straightforward answers will help us in finding the right home for each little OTSC Puppy.  Please email your answers to the following questions.</p>
     <br>
   </div>
+<div class="container">
+  <form role="form" action="https://formspree.io/sunshine.farm.nc@gmail.com" method="post">
+    <div class="form-row">
+      <div class="form-group col-md-4">
+        <label for="input-first-name">First Name</label>
+        <input type="text" class="form-control" id="input-first-name" placeholder="First" name="First-name">
+      </div>
+      <div class="form-group col-md-4">
+        <label for="input-last-name">Last Name</label>
+        <input type="text" class="form-control" id="input-last-name" placeholder="Last" name="Last-name">
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-4">
+        <label for="input-email">Email</label>
+        <input type="email" class="form-control" id="input-email" placeholder="Email" name="Email">
+      </div>
+      <div class="form-group col-md-4">
+        <label for="input-phone">Phone</label>
+        <input type="number" class="form-control" id="input-phone" placeholder="555-555-5555" name="Phone">
+      </div>
+    </div>
+    <div class="form-row">
+    <div class="form-group col-md-8">
+      <label for="input-address">Address</label>
+      <input type="text" class="form-control" id="input-address" placeholder="1234 Main St" name="Address">
+    </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-4">
+        <label for="input-city">City</label>
+        <input type="text" class="form-control" id="input-city" placeholder="City" name="City">
+      </div>
+      <div class="form-group col-md-2">
+        <label for="input-state">State</label>
+        <select id="input-state" class="form-control" name="State">
+          <option selected>Choose...</option>
+          <option value="AL">Alabama</option>
+          <option value="AK">Alaska</option>
+          <option value="AZ">Arizona</option>
+          <option value="AR">Arkansas</option>
+          <option value="CA">California</option>
+          <option value="CO">Colorado</option>
+          <option value="CT">Connecticut</option>
+          <option value="DE">Delaware</option>
+          <option value="DC">District Of Columbia</option>
+          <option value="FL">Florida</option>
+          <option value="GA">Georgia</option>
+          <option value="HI">Hawaii</option>
+          <option value="ID">Idaho</option>
+          <option value="IL">Illinois</option>
+          <option value="IN">Indiana</option>
+          <option value="IA">Iowa</option>
+          <option value="KS">Kansas</option>
+          <option value="KY">Kentucky</option>
+          <option value="LA">Louisiana</option>
+          <option value="ME">Maine</option>
+          <option value="MD">Maryland</option>
+          <option value="MA">Massachusetts</option>
+          <option value="MI">Michigan</option>
+          <option value="MN">Minnesota</option>
+          <option value="MS">Mississippi</option>
+          <option value="MO">Missouri</option>
+          <option value="MT">Montana</option>
+          <option value="NE">Nebraska</option>
+          <option value="NV">Nevada</option>
+          <option value="NH">New Hampshire</option>
+          <option value="NJ">New Jersey</option>
+          <option value="NM">New Mexico</option>
+          <option value="NY">New York</option>
+          <option value="NC">North Carolina</option>
+          <option value="ND">North Dakota</option>
+          <option value="OH">Ohio</option>
+          <option value="OK">Oklahoma</option>
+          <option value="OR">Oregon</option>
+          <option value="PA">Pennsylvania</option>
+          <option value="RI">Rhode Island</option>
+          <option value="SC">South Carolina</option>
+          <option value="SD">South Dakota</option>
+          <option value="TN">Tennessee</option>
+          <option value="TX">Texas</option>
+          <option value="UT">Utah</option>
+          <option value="VT">Vermont</option>
+          <option value="VA">Virginia</option>
+          <option value="WA">Washington</option>
+          <option value="WV">West Virginia</option>
+          <option value="WI">Wisconsin</option>
+          <option value="WY">Wyoming</option>
+        </select>
+      </div>
+      <div class="form-group col-md-2">
+        <label for="input-zip">Zip</label>
+        <input type="text" class="form-control" id="input-zip" placeholder="Zip Code" name="Zip">
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-12">
+        <label for="input-previous-experience">Have you been a dog owner before? How about the owner of a working dog breed? If so, tell us about those experiences.</label>
+        <textarea class="form-control" id="input-previous-experience" name="Previous-experience" rows="3"></textarea>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-12">
+        <label for="input-dog-purpose">What do you envision the purpose of this puppy to be, in your family? Where will it live? Who will it bond to/be trained by?</label>
+        <textarea class="form-control" id="input-dog-purpose" name="Dog-purpose" rows="3"></textarea>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-12">
+        <label for="input-other-animals">Do you currently have other dogs? cats? animals? How do they interact?</label>
+        <textarea class="form-control" id="input-other-animals" name="Other-animals" rows="3"></textarea>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-12">
+        <label for="input-kids">Do you have children? How do they feel about dogs?</label>
+        <textarea class="form-control" id="input-kids" name="Kids" rows="3"></textarea>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-12">
+        <label for="input-care">Is someone going to be at home during the day or how do you plan to care for this dog when no one is home? </label>
+        <textarea class="form-control" id="input-care" name="Care" rows="3"></textarea>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-12">
+        <label for="input-why-ours">Why you are interested in obtaining one of our Scotch collies?</label>
+        <textarea class="form-control" id="input-why-ours" name="Why-ours" rows="3"></textarea>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-12">
+        <label for="input-temperament">Describe the personality/temperament traits you are looking for?  What energy level are you looking for in a puppy? Low – Medium – High  How do you want your OTSC to behave with visitors?</label>
+        <textarea class="form-control" id="input-temperament" name="Temperament" rows="3"></textarea>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-12">
+        <label for="input-resources">What have you read or what references have you used to learn about OTSC’s?</label>
+        <textarea class="form-control" id="input-resources" name="Resources" rows="3"></textarea>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-12">
+        <label for="input-training">What methods do you plan on using for training?  What training resources are you familiar with?</label>
+        <textarea class="form-control" id="input-training" name="Training" rows="3"></textarea>
+      </div>
+    </div>
 
-  <h3 id="contact">Contact Us</h3>
+    <div class="form-row">
+      <label class="col-md-3">Puppy preference:  </label>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="checkbox-male" value="Male" name="Male">
+        <label class="form-check-label" for="checkbox-male">Male</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="checkbox-female" value="Female" name="Female">
+        <label class="form-check-label" for="checkbox-female">Female</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="checkbox-no-preference" value="noPreference" name="No-preference">
+        <label class="form-check-label" for="checkbox-no-preference">No Preference</label>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-12">
+        <label for="input-preference">Do you have a color and or markings preference? Keep in mind that matching the puppy's personality to your needs is by far the most important consideration to us.  Are you willing to accept a puppy regardless of color or gender?  Please explain.</label>
+        <textarea class="form-control" id="input-preference" name="Preference" rows="3"></textarea>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <label class="col-md-3">Type of area you live in:  </label>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="checkbox-urban" value="Urban" name="Urban">
+        <label class="form-check-label" for="checkbox-urban">Urban</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="checkbox-suburban" value="Suburban" name="Suburban">
+        <label class="form-check-label" for="checkbox-suburban">Suburban</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="checkbox-rural" value="Rural" name="Rural">
+        <label class="form-check-label" for="checkbox-rural">Rural</label>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group col-md-4">
+        <label for="input-yard-size">Size of your yard:</label>
+        <input type="text" class="form-control" id="input-yard-size" placeholder="Dimensions or Area" name="Yard-size">
+      </div>
+    </div>
+
+    <div class="form-row">
+      <label class="col-md-3">Is it fenced:  </label>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="checkbox-fence" value="fence" name="Fence">
+        <label class="form-check-label" for="checkbox-fence">Fenced</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="checkbox-not-fenced" value="notFenced" name="Not-fenced">
+        <label class="form-check-label" for="checkbox-not-fenced">Not Fenced</label>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group col-md-12">
+        <label for="input-family">Tell a little about your family:</label>
+        <textarea class="form-control" id="input-family" name="Family" rows="3"></textarea>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group col-md-12">
+        <label for="input-more">Add any further information that would help us to get to know you better?</label>
+        <textarea class="form-control" id="input-more" name="More" rows="3"></textarea>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <label class="col-md-10" for="checkbox-follow-up">Are you willing to  give us feedback on how your dog is doing from time to time, successes and struggles?</label>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="checkbox-follow-up-yes" value="Yes" name="Follow-up-yes">
+        <label class="form-check-label" for="checkbox-follow-up-yes">Yes</label>
+        </div>
+      <div class="form-check form-check-inline">
+      <input class="form-check-input" type="checkbox" id="checkbox-follow-up-no" value="Yes" name="Follow-up-no">
+        <label class="form-check-label" for="checkbox-follow-up-no">No</label>
+        <br>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <label class="col-md-5" for="checkbox-customer-stories">Can we post a little summary of that on our website? </label>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="checkbox-customer-stories-yes" value="Yes" name="Customer-stories-yes">
+        <label class="form-check-label" for="checkbox-customer-stories-yes">Yes</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="checkbox-customer-stories-no" value="Yes" name="Customer-stories-no">
+        <label class="form-check-label" for="checkbox-customer-stories-no">No</label>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-12">
+        <label for="input-how">How did you hear about us?</label>
+        <textarea class="form-control" id="input-how" name="How" rows="1"></textarea>
+      </div>
+    </div>
+
+    <p>We hope that you will follow the Scotch Collie, OTSC/OTFC Fan Club on Facebook, the Official Old-Time Scotch-Collie Discussion Group on Facebook and American Working Farm Collie Association (www.farmcollie.com), to keep yourself immersed in discussions of training and learning more about this breed.</p>
+
+    <p>If during the life of your puppy, there comes a time when you are unable to keep the puppy, we ask that you work with us to find a suitable healthy home for the dog. If you are unable to find a suitable home for the dog, we ask that you return the dog to us. We are dedicated to restoring this breed and want to try to place the dog with owners who will respect that and the needs of OTSC’s.</p>
+
+    <div class="form-group">
+      <button type="submit" class="btn">Submit</button>
+      <button type="reset" class="btn">Reset</button>
+    </div>
+  </form>
+  <br><br>
+</div>
+
+<div id="contact"></div>
+  <h3>Contact Us</h3>
   <div class="container">
     <br>
     <p>Send us an email at <a href="mailto:sunshine.fam.nc@gmail.com?Subject=Old%20Time%20Scoth%20Collies" target="_top">sunshine.farm.nc@gmail.com</a></p>
