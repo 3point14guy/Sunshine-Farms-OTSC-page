@@ -222,3 +222,87 @@ div.gallery img {
 .fixed-gallery {
   margin-bottom: 2vh;
 }
+
+.d-purple {
+  background-color: #5e1a6b;
+  color: white;
+}
+
+.teal {
+  background-color: #75ddb8;
+}
+
+.l-purple {
+  background-color: #d389c2;
+}
+
+.pink {
+  background-color: #ee5d7e;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: #5f9f3f;
+}
+
+.d-blue {
+  background-color: #294376;
+  color: white;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.left {
+  padding-left: 0;
+}
+
+.right {
+  padding-right: 0;
+}
+
+.sunshine-yellow {
+  background-color: #fffe88
+}
+
+.table-bordered {
+  border: 4px solid #fffe88;
+}
+.table-bordered td, .table-bordered th {
+  border: 1px solid #fffe88;
+}
+
+.table thead th {
+  border-bottom: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+
+.clear-float {
+  float: clear;
+}
+
+.article p {
+  padding-left: 2%;
+}
+
+[src="images/kids_n_pups.jpg"] {
+  margin-right: 3%;
+}
+
+[src="images/montana_and_wallace2.jpg"] {
+  margin-left: 3%;
+}
