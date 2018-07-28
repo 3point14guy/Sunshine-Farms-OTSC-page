@@ -306,3 +306,13 @@ h2 {
 [src="images/montana_and_wallace2.jpg"] {
   margin-left: 3%;
 }
+
+[src="images/mom_n_pups.jpg"] {
+  margin-left: 3%;
+}
+
+footer, footer a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: gray;
+}
