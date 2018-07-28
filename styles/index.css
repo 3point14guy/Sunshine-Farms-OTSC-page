@@ -192,6 +192,7 @@ div.gallery img {
 
 .img-thumbnail {
   background-color: #fffe88;
+  display: block;
 }
 
 .logo {
@@ -299,15 +300,11 @@ h2 {
   padding-left: 2%;
 }
 
-[src="images/kids_n_pups.jpg"] {
+.float-left {
   margin-right: 3%;
 }
 
-[src="images/montana_and_wallace2.jpg"] {
-  margin-left: 3%;
-}
-
-[src="images/mom_n_pups.jpg"] {
+.float-right {
   margin-left: 3%;
 }
 
@@ -315,4 +312,15 @@ footer, footer a {
   text-decoration: none;
   font-size: 0.8rem;
   color: gray;
+}
+
+#attention {
+  animation-name: flashing;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flashing {
+  from {font-size: 1rem;}
+  to {font-size: 1.3rem;}
 }
