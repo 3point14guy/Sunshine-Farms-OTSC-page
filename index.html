@@ -77,90 +77,140 @@
         </p>
         </div>
         <div class="col-md-6">
-        <img class="card-img-top img-thumbnail" src="images/montana_website_enh.jpg" alt="Scoth Collie Sunshine Farm's Montana">
+        <img class="card-img-top img-thumbnail" src="images/montana_website_enh.jpg" alt="Sunshine Farm's Old Time Scoth Collie Montana">
         </div>
 
         </div>
       </div>
-      <div id="gallery"></div>
+  <div id="gallery"></div>
 
   <h3>Gallery</h3>
   <div class="container">
-    <br>
-    <p class="instructions">Hover on pitures to stop carousel. Click on any picture to bring it to center. Click on the center picture to see full size.</p>
-    <div id="cp_widget_91026cca-cf2b-4c99-949e-242e84c0cef4">...</div><script type="text/javascript">
-    var cpo = []; cpo["_object"] ="cp_widget_91026cca-cf2b-4c99-949e-242e84c0cef4"; cpo["_fid"] = "AIFAqNeMeV_k";
-    var _cpmp = _cpmp || []; _cpmp.push(cpo);
-    (function() { var cp = document.createElement("script"); cp.type = "text/javascript";
-    cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
-    var c = document.getElementsByTagName("script")[0];
-    c.parentNode.insertBefore(cp, c); })(); </script><noscript><span>Old-Time Scotch Collie Heritage Hill's Montana</span><span>photos of the Old-Time Scotch Collie Montana at Sunshine Farms </span><span>Montana 6 months</span><span>Montana Old-Time Scotch Collie at Sunshine Farm NC at six months old</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1080</span><span>height</span><span> 1080</span><span>Montana puppy with ducks</span><span>Old-Time Scotch Collie Montana's first exposure to ducks at Heritage Hills Farm</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 600</span><span>height</span><span> 450</span><span>Montana puppy with cow</span><span>Montana Old-Time Scotch Collie meets a cow at Heritage Hills Farm</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 600</span><span>height</span><span> 450</span><span>Montana at 19 weeks</span><span>Old-Time Scotch Collie Montana at just under 5 months old at Heritage Hills Farm</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 600</span><span>height</span><span> 500</span><span>Montana at 9 weeks</span><span>Montana Old-Time Scotch Collie puppy at 2 months old at Heritage Hills Farm</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 544</span><span>height</span><span> 600</span><span>Montana at 5 weeks</span><span>Montana Old-Time Scotch Collie puppy at 1 month old at Heritage Hills Farm</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 440</span><span>height</span><span> 599</span><span>Montana right profile</span><span>Old-Time Scotch Collie at Sunshine Farm NC</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1632</span><span>height</span><span> 1224</span><span>Montana left profile</span><span>Old-Time Scotch Collie at Sunshine Farm NC</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1632</span><span>height</span><span> 1224</span><span>Montana</span><span>Old-Time Scotch Collie at Sunshine Farm NC</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1224</span><span>height</span><span> 1632</span><span>Montana getting hugs</span><span>Old-Time Scotch Collie at Sunshine Farm NC</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1224</span><span>height</span><span> 1632</span><span>Montana</span><span>Old-Time Scotch Collie at Sunshine Farm NC</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1224</span><span>height</span><span> 1632</span></noscript>
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-10 mx-auto text-center">
+        <img src="images/montana_head_shot.JPG" onclick="openModal();currentSlide(1)" class="hover-shadow cursor gallery-thumbnail img-thumbnail">
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-10 mx-auto text-center">
+        <img src="images/girl_hugging_montana.JPG" onclick="openModal();currentSlide(2)" class="hover-shadow
+        gallery-thumbnail img-thumbnail cursor">
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-10 mx-auto text-center">
+        <img src="images/Montana6months_low_res.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow gallery-thumbnail img-thumbnail cursor">
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-10 mx-auto text-center">
+        <img src="images/montana_right_profile.JPG" onclick="openModal();currentSlide(4)" class="hover-shadow gallery-thumbnail img-thumbnail cursor">
+      </div>
+    </div>
 
+    <div id="myModal" class="modal">
+
+      <div class="modal-content">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="mySlides mx-auto text-center">
+          <div class="numbertext">1 / 4</div>
+          <img src="images/montana_head_shot.JPG" class="carousel-image img-fluid img-responsive">
+        </div>
+
+        <div class="mySlides mx-auto text-center">
+          <div class="numbertext">2 / 4</div>
+          <img src="images/girl_hugging_montana.JPG" class="carousel-image img-fluid img-responsive">
+        </div>
+
+        <div class="mySlides mx-auto text-center">
+          <div class="numbertext">3 / 4</div>
+          <img src="images/Montana6months_low_res.jpg" class="carousel-image img-fluid img-responsive">
+        </div>
+        
+        <div class="mySlides mx-auto text-center">
+          <div class="numbertext">4 / 4</div>
+          <img src="images/montana_right_profile.JPG" class="carousel-image img-fluid img-responsive">
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!--       <div class="caption-container">
+          <p id="caption"></p>
+        </div> -->
+
+        <!-- <div class="row">
+          <div class="column">
+            <img class="demo cursor gallery-thumbnail" src="images/montana_head_shot.JPG" style="width:100%" onclick="currentSlide(1)" alt="">
+          </div>
+          <div class="column">
+            <img class="demo cursor gallery-thumbnail" src="images/girl_hugging_montana.JPG" style="width:100%" onclick="currentSlide(2)" alt="">
+          </div>
+          <div class="column">
+            <img class="demo cursor gallery-thumbnail" src="images/Montana6months_low_res.jpg" style="width:100%" onclick="currentSlide(3)" alt="">
+          </div>
+          <div class="column">
+            <img class="demo cursor gallery-thumbnail" src="images/montana_right_profile.JPG" style="width:100%" onclick="currentSlide(4)" alt="">
+          </div>
+        </div> -->
+      </div>
+    </div>  
+  </div>
+  <!-- bootstrap gallery -->
+<!--    <div class="container page-top">
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <a href="images/montana_head_shot.JPG" class="fancybox" rel="ligthbox">
+          <img  src="images/montana_head_shot.JPG" class="zoom img-responsive img-fluid "  alt="">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <a href="images/girl_hugging_montana.JPG"  class="fancybox" rel="ligthbox">
+          <img  src="images/girl_hugging_montana.JPG" class="zoom img-fluid"  alt="">
+        </a>
+      </div>
+      
+      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <a href="https://images.pexels.com/photos/158827/field-corn-air-frisch-158827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="fancybox" rel="ligthbox">
+          <img  src="https://images.pexels.com/photos/158827/field-corn-air-frisch-158827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="zoom img-fluid "  alt="">
+        </a>
+      </div>
+      
+      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <a href="https://images.pexels.com/photos/302804/pexels-photo-302804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="fancybox" rel="ligthbox">
+          <img  src="https://images.pexels.com/photos/302804/pexels-photo-302804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="zoom img-fluid "  alt="">
+        </a>
+      </div>
+      
+      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <a href="https://images.pexels.com/photos/1038914/pexels-photo-1038914.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+          <img  src="https://images.pexels.com/photos/1038914/pexels-photo-1038914.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="zoom img-fluid "  alt="">
+        </a>
+      </div>
+      
+      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <a href="https://images.pexels.com/photos/414645/pexels-photo-414645.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+          <img  src="https://images.pexels.com/photos/414645/pexels-photo-414645.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="zoom img-fluid "  alt="">
+        </a>
+      </div>
+      
+      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <a href="https://images.pexels.com/photos/801893/pexels-photo-801893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="fancybox" rel="ligthbox">
+          <img  src="https://images.pexels.com/photos/801893/pexels-photo-801893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="zoom img-fluid "  alt="">
+        </a>
+      </div>
+      
+      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <a href="https://images.pexels.com/photos/1038002/pexels-photo-1038002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="fancybox" rel="ligthbox">
+          <img  src="https://images.pexels.com/photos/1038002/pexels-photo-1038002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="zoom img-fluid "  alt="">
+        </a>
+      </div>
+    </div>
+  </div> -->
+  <br>
     <div id="genetics"></div>
+  <div class="container">
     <p>Thanks to Brina Brinkerhoff of Heritage Hill Farm for the pics of Montana when she was a puppy. You can learn more about Montana's puppy days at Brina's website <a href="https://onegoodfarmdog.wordpress.com/">One Good Farmdog</a> </p>
     <br>
   </div>
-  <!-- <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="images/IMG_3972.JPG">
-      <img class="img-thumbnail" src="images/IMG_3972.JPG" alt="Trolltunga Norway">
-    </a>
-  </div>
-</div>
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="images/IMG_3967.JPG">
-      <img class="img-thumbnail" src="images/IMG_3967.JPG" alt="Forest">
-    </a>
-  </div>
-</div>
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="images/M5wks.jpg">
-      <img class="img-thumbnail" src="images/M5wks.jpg" alt="Northern Lights">
-    </a>
-  </div>
-</div>
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="images/Mducks.jpg">
-      <img class="img-responsive img-thumbnail" src="images/Mducks.jpg" alt="Mountains">
-    </a>
-  </div>
-</div>
-<br>
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="images/Mcow.jpg">
-      <img class="img-responsive img-thumbnail" src="images/Mcow.jpg" alt="Mountains">
-    </a>
-  </div>
-</div>
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="images/IMG_4068.JPG">
-      <img class="img-responsive img-thumbnail" src="images/IMG_4068.JPG" alt="Mountains">
-    </a>
-  </div>
-</div>
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="images/M19wks.jpg">
-      <img class="img-responsive img-thumbnail" src="images/M19wks.jpg" alt="Mountains">
-    </a>
-  </div>
-</div>
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="images/IMG_4023.JPG">
-      <img class="img-responsive img-thumbnail" src="images/IMG_4023.JPG" alt="Mountains">
-    </a>
-  </div>
-</div>
 
-<div class="clearfix"></div>
-<br>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+<!-- carousel -->
+<!--     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -189,6 +239,7 @@
 </div>
 <br> -->
 
+<!-- pedigree map -->
 <!-- <div class="container">
   <h3>Pedigree</h3><br> -->
   <!-- <div class="container"> -->
@@ -285,6 +336,8 @@
     </div>
   </div> -->
 <!-- </div> -->
+
+
   <h3>Genetics</h3><br>
   <div class="container">
     <div class="row">
@@ -306,9 +359,9 @@
       <div class="col-md-3">
         <br>
         <a href="http://www.scotchcollie.org/registry/details.php?id=64259">Dam: Heritage Hill's Eva
-        <img class="pedigree img-thumbnail" src="images/Heritage_Hills_Eva.jpg" alt=""></a>
+        <img class="pedigree img-thumbnail" src="images/pedigree/Heritage_Hills_Eva.jpg" alt=""></a>
         <a href="http://www.scotchcollie.org/registry/details.php?id=63841">Sire: CartAngel Acres' Aiden
-        <img class="pedigree img-thumbnail" src="images/CartAngel_Acres_Aiden.jpg" alt=""></a>
+        <img class="pedigree img-thumbnail" src="images/pedigree/CartAngel_Acres_Aiden.jpg" alt=""></a>
       </div>
     </div>
   </div>
@@ -604,33 +657,33 @@
     <br>
     <div class="row">
       <div class="col-lg-4 col-md-6 logo text-center">
-        <a href="http://www.scotchcollie.org/" target="_blank"><img src="images/OTSC-logo.png" alt="Old-Time Scotch Collie Association logo"><br>Old-Time Scotch Collie Association</a><br>
+        <a href="http://www.scotchcollie.org/" target="_blank"><img src="images/logos/OTSC-logo.png" alt="Old-Time Scotch Collie Association logo"><br>Old-Time Scotch Collie Association</a><br>
       </div>
       <div class="col-lg-4 col-md-6 logo text-center">
-        <a href="http://www.farmcollie.com/" target="_blank"><img src="images/AWFA-logo.png" alt="American Working Farm Collie Association logo"><br>American Working Farm Collie Association</a><br>
+        <a href="http://www.farmcollie.com/" target="_blank"><img src="images/logos/AWFA-logo.png" alt="American Working Farm Collie Association logo"><br>American Working Farm Collie Association</a><br>
       </div>
       <div class="col-lg-4 col-md-6 logo text-center">
-        <a href="http://www.oldtimefarmshepherd.org/" target="_blank"><img src="images/OTFS-Logo.png" alt="Old-Time Farm Shepherd logo"><br>Old-Time Farm Shepherd Website</a><br>
+        <a href="http://www.oldtimefarmshepherd.org/" target="_blank"><img src="images/logos/OTFS-Logo.png" alt="Old-Time Farm Shepherd logo"><br>Old-Time Farm Shepherd Website</a><br>
       </div>
 
     </div>
     <div class="row">
       <div class="col-lg-4 col-md-6 logo text-center">
-        <a href="https://m.facebook.com/groups/1857821037808795" target="_blank"><img src="images/OTSC_discussion_grp_fb.jpg" alt="screenshot from Official Old-Time Scotch Collie Discussion Group on Facebook" class="img-responsive" width=350><br>Official Old-Time Scotch Collie<br>Discussion Group
+        <a href="https://m.facebook.com/groups/1857821037808795" target="_blank"><img src="images/logos/OTSC_discussion_grp_fb.jpg" alt="screenshot from Official Old-Time Scotch Collie Discussion Group on Facebook" class="img-responsive" width=350><br>Official Old-Time Scotch Collie<br>Discussion Group
         </a><br>
       </div>
       <div class="col-md-4"></div>
       <div class="col-lg-4 col-md-6 logo text-center">
-        <a href="https://m.facebook.com/groups/630320717005377" target="_blank"><img src="images/OTSC_fan_club_fb.jpg" alt="screenshot from Scotch Collie, OTSC/OTFC Fan Club on Facebook" class="img-responsive" width=350><br>Scotch Collie, OTSC/OTFC Fan Club</a><br>
+        <a href="https://m.facebook.com/groups/630320717005377" target="_blank"><img src="images/logos/OTSC_fan_club_fb.jpg" alt="screenshot from Scotch Collie, OTSC/OTFC Fan Club on Facebook" class="img-responsive" width=350><br>Scotch Collie, OTSC/OTFC Fan Club</a><br>
       </div>
     </div>
   </div>
   <br>
     <footer>&copy; 2018 <a href="https://nickpie.com">pieguy designs</a></footer>
 
-    <script type="text/javascript" src="scripts/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
   </body>
 </html>
