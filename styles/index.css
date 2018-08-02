@@ -150,8 +150,8 @@ div.gallery:hover {
 }
 
 div.gallery img {
-    width: auto;
-    height: 10rem;
+    width: 300px;
+    height: auto;
 
 }
 
@@ -516,12 +516,54 @@ img.hover-shadow {
 }
 
 }
-/*
-@media only screen and (max-width: 1120px) {
-  modal a {
-    margin: auto;
+
+@media only screen and (max-height: 750px) {
+  .carousel-image-vertical {
+    max-height: 65vh;
   }
-}*/
- .puppy-basket {
-   display: block;
+  .prev, .next {
+    top: 85%;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  .prev, .next {
+    top: 80%;
+  }
+}
+
+@media only screen and (max-height: 525px) {
+  .prev, .next {
+    top: 75%;
+  }
+
+  .numbertext {
+    position: absolute;
+    top: 3vh;
+    left: 2vh;
+  }
+
+  .close {
+    top: 3vh;
+    right: 2vw;
+    font-size: 2rem;
+    transition: 0.6s ease;
+  }
+}
+
+@media only screen and (max-height: 420px) {
+
+  .numbertext {
+    position: absolute;
+    top: 6vh;
+    left: 2vh;
+  }
+
+  .close {
+    top: 4vh;
+    right: 2vw;
+    font-size: 2rem;
+    transition: 0.6s ease;
+  }
+>>>>>>> fix mobile height responsiveness
 }
