@@ -305,6 +305,7 @@ h2 {
 
 .float-right {
   margin-left: 3%;
+  margin-bottom: 3%;
 }
 
 footer, footer a {
@@ -433,19 +434,17 @@ footer, footer a {
   left: 2vh;
 }
 
-/*.modal img {
-  margin-bottom: -4px;
-}*/
-
-/*.caption-container {
-  text-align: center;
-  background-color: black;
-  padding: 2px 16px;
-  color: white;
-}*/
-
 .demo {
   opacity: 0.6;
+}
+
+.puppy-basket {
+   display: block;
+}
+
+embed {
+  height: 250px !important;
+  width: 98% !important;
 }
 
 .active,
@@ -457,12 +456,16 @@ img.hover-shadow {
   transition: 0.3s;
 }
 
-.hover-shadow:hover {
-  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-  -webkit-transform: scale(1.2); 
-  -moz-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  transform: scale(1.2);
+.blog-header {
+  margin-left: 16px;
+}
+
+p a:hover, a:hover, .hover-shadow:hover {
+
+  -webkit-transform: scale(1.15); 
+  -moz-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transform: scale(1.15);
 }
 
 .gallery-thumbnail {
@@ -494,9 +497,6 @@ img.hover-shadow {
 }
 
 @media only screen and (max-width: 990px) {
-/*  .carousel-image {
-    max-width: 80vw;
-  }*/
   .prev, .next {
     top: 89%;
   }
@@ -565,5 +565,4 @@ img.hover-shadow {
     font-size: 2rem;
     transition: 0.6s ease;
   }
->>>>>>> fix mobile height responsiveness
 }
