@@ -460,8 +460,20 @@ img.hover-shadow {
   margin-left: 16px;
 }
 
-p a:hover, a:hover, .hover-shadow:hover {
+a:hover, .hover-shadow:hover {
 
+  -webkit-transform: scale(1.15); 
+  -moz-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+p a:hover {
+  font-size: 1.1rem;
+}
+
+.selected:hover {
+  font-size: 1.1rem;
   -webkit-transform: scale(1.15); 
   -moz-transform: scale(1.15);
   -o-transform: scale(1.15);
