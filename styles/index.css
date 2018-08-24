@@ -578,5 +578,17 @@ p a:hover {
     border: 4px solid #fffe88;
     border-radius: .25rem;
     box-shadow: 5px 8px 5px #888888;
+}
 
+.img-border {
+  margin: 5rem;
+}
+
+div.img-border img {
+  background-color: #fffe88;
+  padding: .25rem;
+  border: 1px solid #dee2e6;
+  border-radius: .25rem;
+  max-width: 100%;
+  margin: 1rem;
 }
