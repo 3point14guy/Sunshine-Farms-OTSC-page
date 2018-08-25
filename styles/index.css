@@ -437,9 +437,8 @@ footer, footer a {
    display: block;
 }
 
-embed {
-  height: 250px !important;
-  width: 98% !important;
+.embed-gallery {
+  height: 612px !important;
 }
 
 .active,
