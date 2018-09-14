@@ -50,7 +50,8 @@
           </ul>
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a id="attention" class="nav-link" href="puppies.html">2018 Puppies!</a>
+              <!-- add id="attention" to link below to animate the link -->
+              <a class="nav-link" href="puppies.html">2018 Puppies!</a>
             </li>
           </ul>
         </div>
@@ -220,6 +221,9 @@
   <h3>Puppy Application</h3>
   <div class="container">
     <br>
+    <h2>All of the puppies from the 2018 litter have been sold.</h2>
+    <p style="text-align:center;">Please <a href="mailto:sunshine.fam.nc@gmail.com?Subject=Old%20Time%20Scoth%20Collies" target="_top">email</a> us to get on the 2019 wait-list.</p>
+    <br>
     <p>The following Puppy Application was developed to help us get to know you a bit better and to assist us in finding the best lifetime matches for puppies. Our goal is for a successful match for both owners and puppies.  Completion of this Puppy Application or a phone Interview does not guarantee you a puppy. Additionally, no puppies will be placed based on color or sex preferences alone. </p>
 
 
@@ -232,7 +236,8 @@
     <br>
   </div>
 <div class="container">
-  <form role="form" action="https://formspree.io/sunshine.farm.nc@gmail.com" method="post">
+  <!-- add this action for form to work again action="https://formspree.io/sunshine.farm.nc@gmail.com" -->
+  <form role="form" action="#" method="post" class="disabled">
     <div class="form-row">
       <div class="form-group col-md-4">
         <label for="input-first-name">First Name</label>
@@ -487,8 +492,9 @@
 
     <p>If during the life of your puppy, there comes a time when you are unable to keep the dog, we ask that you work with us to find a suitable healthy home for the dog. If you are unable to find a suitable home for the dog, we ask that you return the dog to us. We are dedicated to restoring this breed and want to try to place the dog with owners who will respect that and the needs of OTSC’s.</p>
 
+
     <div class="form-group">
-      <button type="submit" class="btn pull-left">Submit</button>
+      <button type="submit" class="btn pull-left disabled"><span style="text-decoration:line-through;">Submit</span></button><p id="wait-list"> Please <a href="mailto:sunshine.fam.nc@gmail.com?Subject=Old%20Time%20Scoth%20Collies" target="_top">email</a> us to get on the 2019 wait-list.</p>
       <button type="reset" class="btn pull-right">Reset</button>
     </div>
   </form>
@@ -536,5 +542,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script type="text/javascript" src="scripts/index.js"></script>
+
   </body>
 </html>
