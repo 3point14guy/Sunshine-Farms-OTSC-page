@@ -461,7 +461,7 @@ img.hover-shadow {
 
 a:hover, .hover-shadow:hover {
 
-  -webkit-transform: scale(1.15); 
+  -webkit-transform: scale(1.15);
   -moz-transform: scale(1.15);
   -o-transform: scale(1.15);
   transform: scale(1.15);
@@ -473,7 +473,7 @@ p a:hover {
 
 .selected:hover {
   font-size: 1.1rem;
-  -webkit-transform: scale(1.15); 
+  -webkit-transform: scale(1.15);
   -moz-transform: scale(1.15);
   -o-transform: scale(1.15);
   transform: scale(1.15);
@@ -595,4 +595,22 @@ div.img-border img {
   border-radius: .25rem;
   max-width: 100%;
   margin: 1rem;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu>a:after {
+  content: "\f0da";
+  float: right;
+  border: none;
+  font-family: 'FontAwesome';
+}
+
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
 }
