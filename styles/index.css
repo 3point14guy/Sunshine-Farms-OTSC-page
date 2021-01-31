@@ -36,7 +36,7 @@ a {
 }
 
 
-h3 {
+h3, h5 {
     background-color: #fffe88;
     text-align: center;
     width: 100%;
@@ -613,4 +613,8 @@ div.img-border img {
   left: 100%;
   margin-top: 0px;
   margin-left: 0px;
+}
+
+.announcement {
+  text-align: center;
 }
